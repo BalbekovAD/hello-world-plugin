@@ -1,18 +1,25 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.balbekovad.helloworldplugin</id>
-    <name>hello-world-plugin Template</name>
-    <vendor>balbekovad</vendor>
+    <name>Hello World Shower</name>
+    <vendor email="balbekov.ad@mail.ru">Alexander Balbekov</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.balbekovad.helloworldplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-    </extensions>
+    <actions>
+        <action class="com.github.balbekovad.helloworldplugin.ShowHelloWorldAction"
+                id="HelloWorldShower.ShowHelloWorld"
+                text="Show Hello World"
+                description="Show hello world like toast in android"/>
+    </actions>
 
-    <applicationListeners>
-        <listener class="com.github.balbekovad.helloworldplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
+    <!--    <extensions defaultExtensionNs="com.intellij">-->
+    <!--        <toolWindow factoryClass="com.github.balbekovad.helloworldplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>-->
+    <!--    </extensions>-->
+    <!---->
+    <!--    <applicationListeners>-->
+    <!--        <listener class="com.github.balbekovad.helloworldplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>-->
+    <!--    </applicationListeners>-->
 </idea-plugin>
