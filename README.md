@@ -1,8 +1,8 @@
 # hello-world-plugin
 
 ![Build](https://github.com/BalbekovAD/hello-world-plugin/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/22199-hello-world-shower)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/22199-hello-world-shower)
 
 ## Template ToDo list
 - [x] Create a new [IntelliJ Platform Plugin Template][template] project.
@@ -20,7 +20,7 @@
 You need more `Hello world` in your life?
 You've come to the right place!
 
-This lets you trigger `Hello World` notification in as many ways as possible.
+This plugin lets you trigger `Hello World` notification in as many ways as possible.
 
 Currently supported:
 - In `Find action` (default shortcut is `Ctrl+Shift+A`) search for `Show Hello World`
