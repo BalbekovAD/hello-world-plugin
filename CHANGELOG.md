@@ -2,6 +2,7 @@
 
 # hello-world-plugin Changelog
 
-## [Unreleased]
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+Fix of typo in plugin description
+
+[//]: # (- Initial scaffold created from [IntelliJ Platform Plugin Template]&#40;https://github.com/JetBrains/intellij-platform-plugin-template&#41;)
